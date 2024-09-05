@@ -1,5 +1,7 @@
 
 import { NavStyle } from '../css/NavStyle'
+import { Link } from 'react-router-dom'
+
 const Nav=()=>{
     return(
         <>
@@ -8,10 +10,10 @@ const Nav=()=>{
                 <section className="header">
                         <img src='#' alt='IMAGEM DA LOJA'></img>
                         <nav className='link'>
-                            <a>Home</a>
-                            <a>Produtos</a>
-                            <a>Contatos</a>
-                            <a>Sobre</a>
+                            <Link to="/">Home</Link>
+                            <Link to="/produtos">Produtos</Link>
+                            <Link to="/contatos">Contatos</Link>
+                            <Link to="/sobre">Sobre</Link>
                         </nav>
                 </section>
             </div>

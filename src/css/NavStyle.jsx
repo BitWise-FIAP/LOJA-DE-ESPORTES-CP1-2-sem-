@@ -11,7 +11,11 @@ export const NavStyle = styled.section`
 }
 .link a{
     margin-left: 55px;
-    
-
 }
+
+.Logo{
+    height: 3rem;
+    width: 3rem
+}
+
 `

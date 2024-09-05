@@ -3,7 +3,7 @@ import styled from 'styled-components'
 export const ProdutosStyle = styled.section`
 
 .corpo{
-    background-color: #1f451f;
+    background-image: radial-gradient(circle, #5c0067 0%, #00d4ff 100%);
     padding: 15px;
 }
 .cardholder{

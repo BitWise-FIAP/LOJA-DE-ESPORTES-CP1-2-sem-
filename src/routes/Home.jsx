@@ -3,20 +3,7 @@ const Home=()=>{
     return(
         <>
         <body>
-            <div className="cardholder"> 
-                <div className="card">
-                    <img src="#" alt="IMG CARD 1"></img>
-                    <p>texto do card</p>
-                </div>
-                <div className="card">
-                    <img src="#" alt="IMG CARD 2"></img>
-                    <p>texto do card</p>
-                </div>
-                <div className="card">
-                    <img src="#" alt="IMG CARD 2"></img>
-                    <p>texto do card</p>
-                </div>
-            </div>
+            <h1>Bem vindo a nossa loja de esportes!</h1>
         </body>
         </>
     )

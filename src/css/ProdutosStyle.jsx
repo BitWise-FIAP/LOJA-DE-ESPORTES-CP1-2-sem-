@@ -10,4 +10,13 @@ export const ProdutosStyle = styled.section`
     display: flex;
     justify-content: space-around;
 }
+.card{
+    border-style: dashed; 
+    border-color: #5c0067; 
+}
+.card img{
+    
+    height: 10rem;
+    border: solid
+}
 `

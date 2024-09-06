@@ -18,6 +18,9 @@ export const NavStyle = styled.section`
     font-size: 25px;
     color: #9fdbfd;
 }
+.link a:hover{
+    color: white;
+}
 
 .Logo{
     height: 5rem;

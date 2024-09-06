@@ -32,7 +32,8 @@ export const ProdutosStyle = styled.section`
     filter: contrast(130%);
     height: 10rem;
     border-style: solid;
-    border-width: 2px;
+    border-width: 3px;
+    border-color: black;
     
 }
 .textocard{
@@ -42,6 +43,7 @@ export const ProdutosStyle = styled.section`
 .preco{
     font-size: 20px;
     font-weight: 600;
+    text-decoration: underline;
 }
 .botao{
     border: solid;
@@ -55,6 +57,8 @@ export const ProdutosStyle = styled.section`
     font-weight: bolder;
     cursor: pointer;
 
-
+}
+.botao:hover{
+    transform: scale(1.2);
 }
 `

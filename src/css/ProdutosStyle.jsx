@@ -30,7 +30,7 @@ export const ProdutosStyle = styled.section`
     filter: contrast(130%);
     height: 10rem;
     border-style: solid;
-    border-width: 1px;
+    border-width: 2px;
     
 }
 .textocard{

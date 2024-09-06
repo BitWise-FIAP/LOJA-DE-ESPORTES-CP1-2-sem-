@@ -27,10 +27,17 @@ export const ProdutosStyle = styled.section`
     text-align: center;
 }
 .cardcontent img{
-    
+    filter: contrast(130%);
     height: 10rem;
     border-style: solid;
     border-width: 1px;
     
+}
+.textocard{
+    font-size: 20px;
+}
+.preco{
+    font-size: 20px;
+    font-weight: 600;
 }
 `

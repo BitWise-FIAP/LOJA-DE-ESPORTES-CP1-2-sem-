@@ -7,7 +7,6 @@ const Nav=()=>{
     return(
         <>
         <NavStyle>
-            <div>
                 <section className="header">
                         <img className="Logo" src={Logo} alt='IMAGEM DA LOJA'></img>
                         <nav className='link'>
@@ -17,7 +16,6 @@ const Nav=()=>{
                             <Link to="/sobre">Sobre</Link>
                         </nav>
                 </section>
-            </div>
         </NavStyle>
         </>
     )

@@ -2,11 +2,13 @@ import styled from 'styled-components'
 
 export const NavStyle = styled.section`
 .header{
-    background-color: gray;
+    background-color: #2484c4;
     display: flex;
     justify-content: space-between;
-    padding: 25px;
+    padding: 15px;
     font-size: 20px;
+    max-width: 100%;
+    margin: 0;
 
 }
 .link a{

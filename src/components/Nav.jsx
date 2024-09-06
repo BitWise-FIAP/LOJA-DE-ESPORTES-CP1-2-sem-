@@ -10,10 +10,12 @@ const Nav=()=>{
                 <section className="header">
                         <img className="Logo" src={Logo} alt='IMAGEM DA LOJA'></img>
                         <nav className='link'>
-                            <Link to="/">Home</Link>
-                            <Link to="/produtos">Produtos</Link>
-                            <Link to="/contatos">Contatos</Link>
-                            <Link to="/sobre">Sobre</Link>
+                            <ul>
+                                <li><Link to="/">Home</Link></li>
+                                <li><Link to="/produtos">Produtos</Link></li>
+                                <li><Link to="/contatos">Contatos</Link></li>
+                                <li><Link to="/sobre">Sobre</Link></li>
+                            </ul> 
                         </nav>
                 </section>
         </NavStyle>

@@ -16,17 +16,21 @@ export const ProdutosStyle = styled.section`
     border-bottom: solid;
 }
 .card{
-    padding: 15px;
     border-color: #5c0067; 
     background-color: #00d4ff;
     border-style: solid;
     border-width: 5px;
     border-radius: 15px;
 }
-.card img{
+.cardcontent{
+    padding: 15px;
+    text-align: center;
+}
+.cardcontent img{
     
     height: 10rem;
     border-style: solid;
     border-width: 1px;
+    
 }
 `

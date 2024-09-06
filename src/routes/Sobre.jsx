@@ -7,9 +7,9 @@ const Sobre=()=>{
             <section className="content">
                 <div className="sobrepor">
                     <img src={banner_sobre} alt="imagem acima do texto"></img>
-                    <div className="texto">
-                        <h3>A Importância de Praticar Esportes para a Saúde e Bem-Estar</h3>
-                        <p>Sobre nós: Incentivamos a prática esportiva! Praticar esportes é fundamental para manter uma vida saudável e equilibrada.
+                    <h3>A Importância de Praticar Esportes para a Saúde e Bem-Estar</h3>
+                </div>
+                <p className="texto">Sobre nós: Incentivamos a prática esportiva! Praticar esportes é fundamental para manter uma vida saudável e equilibrada.
                             A atividade física regular ajuda a prevenir uma série de doenças crônicas, como diabetes, hipertensão e doenças cardiovasculares.
                             Além disso, melhora a saúde mental, reduzindo os níveis de estresse e ansiedade, e promovendo uma sensação de bem-estar através da liberação de endorfinas.
                             Esportes também são essenciais para o controle do peso corporal, pois aumentam o gasto calórico e ajudam a manter um metabolismo ativo.
@@ -22,11 +22,10 @@ const Sobre=()=>{
                                     ajudando a aliviar a rotina diária e a criar memórias positivas. Esportes como futebol, basquete, natação e ciclismo,
                                     entre outros, oferecem oportunidades para explorar novos hobbies e interesses,
                                     além de incentivar um estilo de vida mais ativo e dinâmico.</p>
-                    </div>
-                </div>
             </section>
         </SobreStyle>
         </>
     )
 }
 export default Sobre
+

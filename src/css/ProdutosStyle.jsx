@@ -3,7 +3,7 @@ import styled from 'styled-components'
 export const ProdutosStyle = styled.section`
 
 .corpo{
-    background-image: radial-gradient(circle, #5c0067 0%, #00d4ff 100%);
+    background-image: radial-gradient(circle, #1e0e64 0%, #00d4ff 100%);
     padding: 15px;
     max-width: 100%;
     height: 90vh;
@@ -14,13 +14,15 @@ export const ProdutosStyle = styled.section`
     justify-content: space-around;
     padding: 15px;
     border-bottom: solid;
+    border-color: #000000; 
 }
 .card{
-    border-color: #5c0067; 
-    background-color: #00d4ff;
+    border-color: #161868; 
+    background-color: #9fdbfd;
     border-style: solid;
     border-width: 5px;
     border-radius: 15px;
+    width: 350px;
 }
 .cardcontent{
     padding: 15px;
@@ -35,6 +37,7 @@ export const ProdutosStyle = styled.section`
 }
 .textocard{
     font-size: 20px;
+    font-weight: 900;
 }
 .preco{
     font-size: 20px;

@@ -6,8 +6,9 @@ export const ProdutosStyle = styled.section`
     background-image: radial-gradient(circle, #1e0e64 0%, #00d4ff 100%);
     padding: 15px;
     max-width: 100%;
-    height: 90vh;
-    margin: 0;
+    height: 110vh;
+    margin:0;
+    
 }
 .cardholder{
     display: flex;
@@ -15,6 +16,7 @@ export const ProdutosStyle = styled.section`
     padding: 15px;
     border-bottom: solid;
     border-color: #000000; 
+    
 }
 .card{
     border-color: #161868; 

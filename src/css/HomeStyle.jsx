@@ -1,5 +1,6 @@
 import styled from "styled-components"
 
+
 export const HomeStyle = styled.section`
 
 *{
@@ -33,5 +34,16 @@ export const HomeStyle = styled.section`
 .bannerDiv{
     width:100%;
     height:30rem;
+}
+.flexdiv{
+    display: flex;
+    justify-content: space-around;
+}
+.grid{
+    font-size: 1.25rem;
+    color:#9fdbfd;
+    text-align: center;
+    text-shadow: 2px 1px #120303;
+    filter: drop-shadow(0 0 1.2rem #000000);
 }
 `

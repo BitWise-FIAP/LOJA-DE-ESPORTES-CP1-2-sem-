@@ -9,8 +9,17 @@ const Home=()=>{
                     <img className="banner" src={bike_swift}></img>
                     <h1 className="bannertitle">70% OFF PRIMEIRA COMPRA</h1>
                 </div>
-                <h1>Bem vindo a nossa loja de esportes!</h1>
-                <p>Encontre tudo o que você precisa para suas atividades esportivas, desde equipamentos até roupas especializadas.</p>
+                <div className="flexdiv">
+                    <div className="grid">
+                        <h1>Bem vindo a nossa loja de esportes!</h1>
+                        <p>Encontre tudo o que você precisa para suas atividades esportivas, desde equipamentos até roupas especializadas.</p> 
+                    </div>
+                    <div className="grid">
+                        <h1>Bem vindo a nossa loja de esportes!</h1>
+                        <p>Encontre tudo o que você precisa para suas atividades esportivas, desde equipamentos até roupas especializadas.</p> 
+                    </div>   
+                </div>
+                
             </body>
         </HomeStyle>
         </>

@@ -9,8 +9,22 @@ export const HomeStyle = styled.section`
     padding: 0;
 }
 .banner{
+    position: absolute;
+    width: 100%;
+    height: 30rem;
+    object-fit: none 
+}
+.bannertitle{
+    position: absolute;
+    top: 15rem;
+    left: 50%;
+    transform: translate(-50%);
+    font-size: 4rem;
+    color: white;
+    text-align: center;
+}
+.bannerDiv{
     width:100%;
     height:30rem;
-    object-fit: none 
 }
 `

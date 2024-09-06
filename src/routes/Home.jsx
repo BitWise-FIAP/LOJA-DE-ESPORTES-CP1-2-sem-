@@ -5,7 +5,10 @@ const Home=()=>{
         <>
         <HomeStyle>
             <body className="corpo">
-                <img className="banner" src={bike_swift}></img>
+                <div className="bannerDiv">
+                    <img className="banner" src={bike_swift}></img>
+                    <h1 className="bannertitle">70% OFF PRIMEIRA COMPRA</h1>
+                </div>
                 <h1>Bem vindo a nossa loja de esportes!</h1>
                 <p>Encontre tudo o que você precisa para suas atividades esportivas, desde equipamentos até roupas especializadas.</p>
 

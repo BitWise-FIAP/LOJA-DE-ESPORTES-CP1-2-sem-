@@ -11,7 +11,6 @@ const Home=()=>{
                 </div>
                 <h1>Bem vindo a nossa loja de esportes!</h1>
                 <p>Encontre tudo o que você precisa para suas atividades esportivas, desde equipamentos até roupas especializadas.</p>
-
             </body>
         </HomeStyle>
         </>

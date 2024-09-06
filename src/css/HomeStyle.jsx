@@ -2,6 +2,12 @@ import styled from "styled-components"
 
 export const HomeStyle = styled.section`
 
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
 .corpo{
     background-image: radial-gradient(circle, #1e0e64 0%, #00d4ff 100%);
 

@@ -12,14 +12,33 @@ export const NavStyle = styled.section`
     margin: 0;
 
 }
+
+.link ul{
+    display: flex;
+    list-style: none;
+
+}
+
+.link ul li{
+    transition: all .2s ease-in-out;
+}
+
+.link ul li:hover{
+    
+    transition: .2s all ease-in-out;
+    transform: translateY(-4px);
+}
+
+.link ul li a:hover{
+    color: white;
+}
+
 .link a{
     margin-left: 55px;
     text-decoration: none;
     font-size: 25px;
     color: #9fdbfd;
-}
-.link a:hover{
-    color: white;
+    transition: .2s all;
 }
 
 .Logo{

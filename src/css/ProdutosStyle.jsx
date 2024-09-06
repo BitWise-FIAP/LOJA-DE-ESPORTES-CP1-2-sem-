@@ -6,14 +6,16 @@ export const ProdutosStyle = styled.section`
     background-image: radial-gradient(circle, #1e0e64 0%, #00d4ff 100%);
     padding: 15px;
     max-width: 100%;
-    height: 110vh;
     margin:0;
-    
 }
+
 .cardholder{
     display: flex;
+    align-items: center;
+    flex-wrap: wrap;
     justify-content: space-around;
     padding: 15px;
+    gap: 10px;
     border-bottom: solid;
     border-color: #000000; 
     
@@ -58,9 +60,11 @@ export const ProdutosStyle = styled.section`
     font-size: 15px;
     font-weight: bolder;
     cursor: pointer;
+    transition: all .2s;
 
 }
 .botao:hover{
-    transform: scale(1.2);
+    transform: scale(1.06);
+    transition: all .2s;
 }
 `

@@ -43,4 +43,18 @@ export const ProdutosStyle = styled.section`
     font-size: 20px;
     font-weight: 600;
 }
+.botao{
+    border: solid;
+    border-color: #161868;
+    border-radius: 200px;
+    height: 50px;
+    width: 120px;
+    background-color: #161868;
+    color: #9fdbfd;
+    font-size: 15px;
+    font-weight: bolder;
+    cursor: pointer;
+
+
+}
 `

@@ -2,9 +2,10 @@ import styled from 'styled-components'
 
 export const NavStyle = styled.section`
 .header{
-    background-color: #2484c4;
+    background-color: #161868; 
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 15px;
     font-size: 20px;
     max-width: 100%;
@@ -13,11 +14,14 @@ export const NavStyle = styled.section`
 }
 .link a{
     margin-left: 55px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #9fdbfd;
 }
 
 .Logo{
-    height: 3rem;
-    width: 3rem
+    height: 5rem;
+    width: 5rem
 }
 
 `

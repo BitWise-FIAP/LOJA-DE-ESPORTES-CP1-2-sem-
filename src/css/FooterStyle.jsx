@@ -5,7 +5,7 @@ export const FooterStyle = styled.section`
 
 .footer{
     display: flex;
-    background-color: #2484c4;
+    background-color: #161868; 
     padding: 15px;
     justify-content: space-around;
     max-width: 100%;
@@ -13,6 +13,7 @@ export const FooterStyle = styled.section`
 }
 .footer h5{
     font-size: 15px;
+    color: #9fdbfd;
 }
 .apple{
     height: 3.4rem;

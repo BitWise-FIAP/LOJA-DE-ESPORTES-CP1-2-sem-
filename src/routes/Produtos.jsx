@@ -16,6 +16,7 @@ const Produtos=()=>{
                             <img src={kit_rosa} alt="IMG CARD 1"></img>
                             <p className="textocard">Kit de Academia Rosa (Tênis e Garrafa)</p>
                             <p className="preco">R$599,90</p>
+                            <button className="botao">Comprar</button>
                         </div>
                     </div>
                     <div className="card">
@@ -23,6 +24,7 @@ const Produtos=()=>{
                             <img src={kit_caminhada} alt="IMG CARD 2"></img>
                             <p className="textocard">Kit de Caminhada (Tênis e Smart Watch)</p>
                             <p className="preco">R$799,90</p>
+                            <button className="botao">Comprar</button>
                         </div>
                     </div>
                     <div className="card">
@@ -30,6 +32,7 @@ const Produtos=()=>{
                             <img src={bike_swift} alt="IMG CARD 2"></img>
                             <p className="textocard">Kit de Academia Rosa (Tênis e Garrafa)</p>
                             <p className="preco">R$1200,99</p>
+                            <button className="botao">Comprar</button>
                         </div>
                     </div>
                 </div>
@@ -39,6 +42,7 @@ const Produtos=()=>{
                             <img src={tenis_basquete} alt="IMG CARD 1"></img>
                             <p className="textocard">Tênis de Basquete Cano Alto</p>
                             <p className="preco">R$490,50</p>
+                            <button className="botao">Comprar</button>
                         </div>
                     </div>
                     <div className="card">
@@ -46,6 +50,7 @@ const Produtos=()=>{
                             <img src={kit_escalada} alt="IMG CARD 2"></img>
                             <p className="textocard">Kit de Escalada profissional</p>
                             <p className="preco">R$1799,90</p>
+                            <button className="botao">Comprar</button>
                         </div>
                     </div>
                     <div className="card">
@@ -53,6 +58,7 @@ const Produtos=()=>{
                             <img src={kit_natacao} alt="IMG CARD 2"></img>
                             <p className="textocard">Kit de Natação Speedo</p>
                             <p className="preco">R$250,90</p>
+                            <button className="botao">Comprar</button>
                         </div>
                     </div>
                 </div>

@@ -8,4 +8,9 @@ export const HomeStyle = styled.section`
     margin: 0;
     padding: 0;
 }
+.banner{
+    width:100%;
+    height:30rem;
+    object-fit: none 
+}
 `

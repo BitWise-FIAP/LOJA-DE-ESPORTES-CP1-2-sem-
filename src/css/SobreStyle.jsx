@@ -44,6 +44,8 @@ export const SobreStyle = styled.section`
     text-align: center;
     text-shadow: 2px 1px #414141;
     filter: drop-shadow(0 0 1.2rem #000000);
+    padding: 5vh;
+    
        
 
 }

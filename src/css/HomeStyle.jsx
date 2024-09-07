@@ -45,5 +45,7 @@ export const HomeStyle = styled.section`
     text-align: center;
     text-shadow: 2px 1px #120303;
     filter: drop-shadow(0 0 1.2rem #000000);
+    padding: 10vh;
+    width: 50%;
 }
 `

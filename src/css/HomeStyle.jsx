@@ -11,14 +11,21 @@ export const HomeStyle = styled.section`
 
 .corpo{
     background-image: radial-gradient(circle, #1e0e64 0%, #00d4ff 100%);
-
     max-width: 100%;
     margin: 0;
     padding: 0;
 }
-.banner{
-    position: absolute;
+.estruturabanner{
+    position: relative;
     width: 100%;
+}
+.bannerdiv{
+    max-width: 100%;
+    height:30rem;
+}
+.banner{
+    width: 100%;
+    position: absolute;
     height: 30rem;
     object-fit: none 
 }
@@ -31,10 +38,7 @@ export const HomeStyle = styled.section`
     color: white;
     text-align: center;
 }
-.bannerDiv{
-    width:100%;
-    height:30rem;
-}
+
 .flexdiv{
     display: flex;
     justify-content: space-around;

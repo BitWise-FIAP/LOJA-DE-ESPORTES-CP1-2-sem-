@@ -5,9 +5,11 @@ const Home=()=>{
         <>
         <HomeStyle>
             <body className="corpo">
-                <div className="bannerDiv">
-                    <img className="banner" src={bike_swift}></img>
-                    <h1 className="bannertitle">70% OFF PRIMEIRA COMPRA</h1>
+                <div className="estruturabanner">
+                    <div className="bannerdiv">
+                        <img className="banner" src={bike_swift}></img>
+                        <h1 className="bannertitle">70% OFF PRIMEIRA COMPRA</h1>
+                    </div>
                 </div>
                 <div className="flexdiv">
                     <div className="grid">
@@ -34,8 +36,7 @@ const Home=()=>{
                                     os esportes têm o poder de unir pessoas de diferentes origens e culturas, 
                                     criando um senso de comunidade e pertencimento.</p> 
                     </div>   
-                </div>
-                
+                </div>  
             </body>
         </HomeStyle>
         </>
